@@ -89,7 +89,7 @@ while True:
         speak(f"Sir, the time is {strTime}")
 
     elif 'open python' in query:
-        codePath = "C:\\Users\\pro20\\AppData\\Local\\Programs\\Python\\Python38-32\\Lib\\idlelib\\idle.pyw"
+        codePath = ""#write a directory with music in it within the quotes and instead of each '\' use '\\'.
         os.startfile(codePath)
 
     elif 'terminate' in query:
